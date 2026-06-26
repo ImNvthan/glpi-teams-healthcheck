@@ -1,0 +1,21 @@
+# Secrets et configuration locale
+.my.cnf
+*.cnf
+!.my.cnf.example
+
+# Fichier d'état généré à l'exécution
+last_state
+
+# Journaux
+*.log
+
+# Fichiers système Windows / macOS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Fichiers temporaires d'éditeurs
+*~
+*.swp
+.vscode/
+.idea/
